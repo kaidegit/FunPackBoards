@@ -1,0 +1,119 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 60674593
+P 5150 3000
+F 0 "J1" H 5200 3317 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5200 3226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5150 3000 50  0001 C CNN
+F 3 "~" H 5150 3000 50  0001 C CNN
+	1    5150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 60675554
+P 4700 2750
+F 0 "#PWR0101" H 4700 2600 50  0001 C CNN
+F 1 "+3V3" H 4715 2923 50  0000 C CNN
+F 2 "" H 4700 2750 50  0001 C CNN
+F 3 "" H 4700 2750 50  0001 C CNN
+	1    4700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2750 4700 2900
+Wire Wire Line
+	4700 2900 4950 2900
+Text Label 4700 3000 0    50   ~ 0
+CLK
+Wire Wire Line
+	4700 3000 4950 3000
+$Comp
+L power:GND #PWR0102
+U 1 1 60675C80
+P 4700 3300
+F 0 "#PWR0102" H 4700 3050 50  0001 C CNN
+F 1 "GND" H 4705 3127 50  0000 C CNN
+F 2 "" H 4700 3300 50  0001 C CNN
+F 3 "" H 4700 3300 50  0001 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3300 4700 3100
+Wire Wire Line
+	4700 3100 4950 3100
+Wire Wire Line
+	5450 2900 5700 2900
+Wire Wire Line
+	5450 3100 5700 3100
+Text Label 5700 2900 2    50   ~ 0
+DIO
+Text Label 5700 3100 2    50   ~ 0
+RST
+NoConn ~ 5450 3000
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 6067667B
+P 6150 3000
+F 0 "J2" H 6068 2575 50  0000 C CNN
+F 1 "Conn_01x05" H 6068 2666 50  0000 C CNN
+F 2 "" H 6150 3000 50  0001 C CNN
+F 3 "~" H 6150 3000 50  0001 C CNN
+	1    6150 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 606771B6
+P 6650 3200
+F 0 "#PWR0103" H 6650 3050 50  0001 C CNN
+F 1 "+3V3" V 6665 3328 50  0000 L CNN
+F 2 "" H 6650 3200 50  0001 C CNN
+F 3 "" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 60677909
+P 6650 3100
+F 0 "#PWR0104" H 6650 2850 50  0001 C CNN
+F 1 "GND" V 6655 2972 50  0000 R CNN
+F 2 "" H 6650 3100 50  0001 C CNN
+F 3 "" H 6650 3100 50  0001 C CNN
+	1    6650 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 3200 6350 3200
+Wire Wire Line
+	6350 3100 6650 3100
+Text Label 6650 3000 2    50   ~ 0
+DIO
+Wire Wire Line
+	6650 3000 6350 3000
+Text Label 6650 2900 2    50   ~ 0
+CLK
+Wire Wire Line
+	6650 2900 6350 2900
+Text Label 6650 2800 2    50   ~ 0
+RST
+Wire Wire Line
+	6650 2800 6350 2800
+$EndSCHEMATC
