@@ -1,0 +1,3 @@
+/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/CMakeFiles/soc_thunderboard_brd4184a.dir

@@ -1,0 +1,4 @@
+"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug

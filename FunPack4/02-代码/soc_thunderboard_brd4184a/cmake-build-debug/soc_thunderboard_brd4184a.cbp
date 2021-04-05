@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="soc_thunderboard_brd4184a"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soc_thunderboard_brd4184a">
+				<Option output="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/soc_thunderboard_brd4184a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/."/>
+					<Add directory="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen"/>
+					<Add directory="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/brd4184a"/>
+					<Add directory="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/common/toolchain/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/leddrv/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/emdrv/nvm3/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si1133/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/simple_timer"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_protocol_crypto/src"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/common/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_hall"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_cryptoacc_library/include"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/hfxo_manager/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/emdrv/common/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/board/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/ram_interrupt_vector_init/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_hall"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/app_log"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/common"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/ble"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/ieee802154"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/zwave"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/mfm"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/chip/efr32/efr32xg2x"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/se_manager/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/se_manager/src"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_light"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si70xx/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/printf"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/printf/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_alt/include"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_imu"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/button/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/app_assert"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_light"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_rht"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/sleeptimer/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_battery"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/mpu/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_rht"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/system/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/emdrv/gpiointerrupt/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_aio"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/rail_util_pti"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/udelay/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/power_manager/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/i2cspm/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si7210/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/silicon_labs/silabs_core/memory_manager"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_select"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_imu"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/icm20648/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions/efr32xg22"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/ota_dfu"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/configs"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/imu/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/power_supply"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32BG22/Include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 soc_thunderboard_brd4184a"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soc_thunderboard_brd4184a/fast">
+				<Option output="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/soc_thunderboard_brd4184a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/."/>
+					<Add directory="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen"/>
+					<Add directory="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/brd4184a"/>
+					<Add directory="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/common/toolchain/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/leddrv/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/emdrv/nvm3/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si1133/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/simple_timer"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_protocol_crypto/src"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/common/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_hall"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_cryptoacc_library/include"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/hfxo_manager/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/emdrv/common/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/board/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/ram_interrupt_vector_init/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_hall"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/app_log"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/common"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/ble"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/ieee802154"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/zwave"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/mfm"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/chip/efr32/efr32xg2x"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/se_manager/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/se_manager/src"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_light"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si70xx/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/printf"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/printf/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_alt/include"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_imu"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/button/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/app_assert"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_light"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_rht"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/sleeptimer/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_battery"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/mpu/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_rht"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/system/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/emdrv/gpiointerrupt/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/gatt_service_aio"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/rail_util_pti"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/udelay/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/service/power_manager/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/i2cspm/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si7210/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/silicon_labs/silabs_core/memory_manager"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_select"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_imu"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/icm20648/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions/efr32xg22"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/ota_dfu"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/configs"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/imu/inc"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/power_supply"/>
+					<Add directory="/Applications/SimplicityStudio.app/Contents/Eclipse/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32BG22/Include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 soc_thunderboard_brd4184a/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/advertise.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/advertise.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/app.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/app.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/app_properties.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/RTE_Components.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/gatt_db.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/gatt_db.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/mbedtls_config_autogen.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_bluetooth.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_bluetooth.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_board_default_init.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_component_catalog.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_device_init_clocks.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_event_handler.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_event_handler.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_i2cspm_init.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_i2cspm_instances.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_iostream_handles.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_iostream_handles.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_iostream_init_instances.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_iostream_init_usart_instances.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_iostream_init_usart_instances.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_power_manager_handler.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_simple_button_instances.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_simple_button_instances.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_simple_led_instances.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/autogen/sl_simple_led_instances.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/brd4184a/board.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/mbedtls_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/nvm3_default_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/pin_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_app_assert_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_app_log_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_bluetooth_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_board_control_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_device_init_dcdc_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_device_init_emu_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_device_init_hfxo_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_device_init_lfrco_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_device_init_lfxo_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_hfxo_manager_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_i2cspm_sensor_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_icm20648_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_iostream_usart_vcom_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_memory_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_mx25_flash_shutdown_usart_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_power_manager_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_rail_util_pa_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_rail_util_pti_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_simple_button_btn0_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_simple_button_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_simple_led_led0_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/config/sl_sleeptimer_config.h">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/main.c">
+			<Option target="soc_thunderboard_brd4184a"/>
+		</Unit>
+		<Unit filename="/Volumes/TOSHIBA_2T/Funpack/Funpack4/soc_thunderboard_brd4184a/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

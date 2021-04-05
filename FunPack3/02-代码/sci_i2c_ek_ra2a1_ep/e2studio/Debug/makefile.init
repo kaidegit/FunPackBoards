@@ -1,0 +1,11 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+arg1 = $(1)
+export PATH=C:\Program Files (x86)\GNU Tools ARM Embedded\9 2019-q4-major\bin\;C:\Users\kai\.eclipse\com.renesas.platform_1435879475\Utilities;C:/Renesas/e2_studio/eclipse//plugins/com.renesas.runtime.jdk.hotspot.win32.x86_64_11.0.8.202009102051/jdk-11.0.8+10/bin/client;C:/Renesas/e2_studio/eclipse//plugins/com.renesas.runtime.jdk.hotspot.win32.x86_64_11.0.8.202009102051/jdk-11.0.8+10/bin;C:\Program Files (x86)\Parallels\Parallels Tools\Applications;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin;C:\Users\kai\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\arm-none-eabi;C:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin;;C:\Renesas\e2_studio\eclipse
+export TCINSTALL=C:\Program Files (x86)\GNU Tools ARM Embedded\9 2019-q4-major$(call arg1,\)
+export CWD=$(CURDIR)
+export TC_VERSION=9.2.1.20191025
+export PWD=$(CURDIR)
+export GCC_VERSION=9.2.1
