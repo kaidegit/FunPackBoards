@@ -1,0 +1,745 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18446 ]
+[d frameptr 6 ]
+"79 C:\Users\kai\MPLABXProjects\v-meter.X\main.c
+[e E10913 . `uc
+channel_ANC2 18
+channel_Vss 59
+channel_Temp_Sensor 60
+channel_DAC1_Output 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"114 C:\Users\kai\MPLABXProjects\v-meter.X\mcc_generated_files/adcc.c
+[e E10898 . `uc
+channel_ANC2 18
+channel_Vss 59
+channel_Temp_Sensor 60
+channel_DAC1_Output 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"50 C:\Users\kai\MPLABXProjects\v-meter.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"63 C:\Users\kai\MPLABXProjects\v-meter.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"138
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"50 C:\Users\kai\MPLABXProjects\v-meter.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\kai\MPLABXProjects\v-meter.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"6 C:\Users\kai\MPLABXProjects\v-meter.X\oled.c
+[v _oled_send oled_send `(v  1 e 1 0 ]
+"16
+[v _OLED_WR_CMD OLED_WR_CMD `(v  1 e 1 0 ]
+"20
+[v _OLED_WR_DATA OLED_WR_DATA `(v  1 e 1 0 ]
+"24
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+"31
+[v _OLED_Clear OLED_Clear `(v  1 e 1 0 ]
+"54
+[v _OLED_Set_Pos OLED_Set_Pos `(v  1 e 1 0 ]
+"77
+[v _OLED_ShowChar OLED_ShowChar `(v  1 e 1 0 ]
+"99
+[v _OLED_ShowString OLED_ShowString `(v  1 e 1 0 ]
+"112
+[v _OLED_ShowNum OLED_ShowNum `(v  1 e 1 0 ]
+"12 C:\Users\kai\MPLABXProjects\v-meter.X\soft_i2c.c
+[v _SDA_Set SDA_Set `(v  1 e 1 0 ]
+"20
+[v _SDA_Reset SDA_Reset `(v  1 e 1 0 ]
+"28
+[v _SCL_Set SCL_Set `(v  1 e 1 0 ]
+"36
+[v _SCL_Reset SCL_Reset `(v  1 e 1 0 ]
+"40
+[v _ReadSDAState ReadSDAState `(a  1 e 1 0 ]
+"44
+[v _Soft_I2c_Start Soft_I2c_Start `(v  1 e 1 0 ]
+"53
+[v _Soft_I2c_Stop Soft_I2c_Stop `(v  1 e 1 0 ]
+"63
+[v _Soft_I2c_SendByte Soft_I2c_SendByte `(v  1 e 1 0 ]
+"80
+[v _Soft_I2c_WaitAck Soft_I2c_WaitAck `(a  1 e 1 0 ]
+"96
+[v _Soft_I2c_Send Soft_I2c_Send `(v  1 e 1 0 ]
+"16 C:\Users\kai\MPLABXProjects\v-meter.X/oled_font.h
+[v _F6x8 F6x8 `DC[92][6]uc  1 e 552 0 ]
+"113
+[v _F8x16 F8x16 `DC[1520]uc  1 e 1520 0 ]
+[s S210 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"511 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16f18446.h
+[u S216 . 1 `S210 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES216  1 e 1 @13 ]
+"598
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"648
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"687
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"749
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"799
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+[s S195 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"813
+[u S201 . 1 `S195 1 . 1 0 ]
+[v _LATBbits LATBbits `VES201  1 e 1 @25 ]
+"838
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+"907
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @140 ]
+"1035
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @141 ]
+"1170
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @142 ]
+"1298
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @143 ]
+"1433
+[v _ADERRL ADERRL `VEuc  1 e 1 @144 ]
+"1561
+[v _ADERRH ADERRH `VEuc  1 e 1 @145 ]
+"1696
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @146 ]
+"1824
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @147 ]
+"1959
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @148 ]
+"2087
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @149 ]
+"2224
+[v _ADACCL ADACCL `VEuc  1 e 1 @150 ]
+"2352
+[v _ADACCH ADACCH `VEuc  1 e 1 @151 ]
+"2480
+[v _ADACCU ADACCU `VEuc  1 e 1 @152 ]
+"2608
+[v _ADCNT ADCNT `VEuc  1 e 1 @153 ]
+"2736
+[v _ADRPT ADRPT `VEuc  1 e 1 @154 ]
+"2871
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @155 ]
+"2999
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @156 ]
+"3134
+[v _ADRESL ADRESL `VEuc  1 e 1 @157 ]
+"3262
+[v _ADRESH ADRESH `VEuc  1 e 1 @158 ]
+"3382
+[v _ADPCH ADPCH `VEuc  1 e 1 @159 ]
+"3493
+[v _ADACQL ADACQL `VEuc  1 e 1 @268 ]
+"3621
+[v _ADACQH ADACQH `VEuc  1 e 1 @269 ]
+"3713
+[v _ADCAP ADCAP `VEuc  1 e 1 @270 ]
+"3812
+[v _ADPREL ADPREL `VEuc  1 e 1 @271 ]
+"3940
+[v _ADPREH ADPREH `VEuc  1 e 1 @272 ]
+"4032
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @273 ]
+[s S291 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"4073
+[s S299 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S307 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+`uc 1 FM1 1 0 :1:3 
+]
+[s S312 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[s S317 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S320 . 1 `S291 1 . 1 0 `S299 1 . 1 0 `S307 1 . 1 0 `S312 1 . 1 0 `S317 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES320  1 e 1 @273 ]
+"4163
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @274 ]
+[s S552 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 GBOE 1 0 :1:3 
+`uc 1 GAOE 1 0 :1:4 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"4194
+[s S560 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADGBOE 1 0 :1:3 
+`uc 1 ADGAOE 1 0 :1:4 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+[s S568 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S573 . 1 `S552 1 . 1 0 `S560 1 . 1 0 `S568 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES573  1 e 1 @274 ]
+"4274
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @275 ]
+[s S413 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"4322
+[s S418 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+[s S427 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+[s S431 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+[s S439 . 1 `uc 1 MD 1 0 :3:0 
+]
+[s S441 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+]
+[s S445 . 1 `uc 1 ADMODE 1 0 :3:0 
+]
+[u S447 . 1 `S413 1 . 1 0 `S418 1 . 1 0 `S427 1 . 1 0 `S431 1 . 1 0 `S439 1 . 1 0 `S441 1 . 1 0 `S445 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES447  1 e 1 @275 ]
+"4452
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @276 ]
+[s S358 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"4487
+[s S362 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[s S370 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[s S374 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+[u S382 . 1 `S358 1 . 1 0 `S362 1 . 1 0 `S370 1 . 1 0 `S374 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES382  1 e 1 @276 ]
+"4582
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @277 ]
+[s S492 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 OV 1 0 :1:7 
+]
+"4617
+[s S499 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+[s S508 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+[s S512 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+]
+[u S516 . 1 `S492 1 . 1 0 `S499 1 . 1 0 `S508 1 . 1 0 `S512 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES516  1 e 1 @277 ]
+"4707
+[v _ADREF ADREF `VEuc  1 e 1 @278 ]
+"4847
+[v _ADACT ADACT `VEuc  1 e 1 @279 ]
+"4939
+[v _ADCLK ADCLK `VEuc  1 e 1 @280 ]
+"19759
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"19804
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"19860
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"19881
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"19926
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"19977
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"20004
+[v _PMD6 PMD6 `VEuc  1 e 1 @1948 ]
+"20037
+[v _PMD7 PMD7 `VEuc  1 e 1 @1949 ]
+"21110
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"21250
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"21347
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"21398
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"21456
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"30650
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"30695
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"30745
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"30790
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"30835
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"31035
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"31074
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"31113
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"31152
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"31191
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"31347
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"31409
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"31471
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"31533
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"31595
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"11 C:\Users\kai\MPLABXProjects\v-meter.X\oled.c
+[v _CMD_Data CMD_Data `[27]uc  1 e 27 0 ]
+"50 C:\Users\kai\MPLABXProjects\v-meter.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"53
+[v main@voltage voltage `f  1 a 4 0 ]
+"52
+[v main@adcValue adcValue `us  1 a 2 8 ]
+"86
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 10 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 9 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S968 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S973 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S976 . 4 `l 1 i 4 0 `d 1 f 4 0 `S968 1 fAsBytes 4 0 `S973 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S976  1 a 4 46 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 40 ]
+[s S1045 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1048 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S1045 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1048  1 a 2 50 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 45 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 44 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 39 ]
+"8
+[v ___flmul@b b `d  1 p 4 26 ]
+[v ___flmul@a a `d  1 p 4 30 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 20 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 13 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 18 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 25 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 24 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 17 ]
+"8
+[v ___fldiv@a a `d  1 p 4 0 ]
+[v ___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 71 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 70 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 69 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 68 ]
+"10
+[v ___fladd@b b `d  1 p 4 52 ]
+[v ___fladd@a a `d  1 p 4 56 ]
+"237
+} 0
+"50 C:\Users\kai\MPLABXProjects\v-meter.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"55 C:\Users\kai\MPLABXProjects\v-meter.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"58 C:\Users\kai\MPLABXProjects\v-meter.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"63 C:\Users\kai\MPLABXProjects\v-meter.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"99 C:\Users\kai\MPLABXProjects\v-meter.X\oled.c
+[v _OLED_ShowString OLED_ShowString `(v  1 e 1 0 ]
+{
+[v OLED_ShowString@x x `uc  1 a 1 wreg ]
+"100
+[v OLED_ShowString@j j `uc  1 a 1 23 ]
+"99
+[v OLED_ShowString@x x `uc  1 a 1 wreg ]
+[v OLED_ShowString@y y `uc  1 p 1 13 ]
+[v OLED_ShowString@chr chr `*.25uc  1 p 2 14 ]
+[v OLED_ShowString@Char_Size Char_Size `uc  1 p 1 16 ]
+[v OLED_ShowString@x x `uc  1 a 1 22 ]
+"110
+} 0
+"112
+[v _OLED_ShowNum OLED_ShowNum `(v  1 e 1 0 ]
+{
+[v OLED_ShowNum@x x `uc  1 a 1 wreg ]
+"113
+[v OLED_ShowNum@j j `ul  1 a 4 23 ]
+"112
+[v OLED_ShowNum@x x `uc  1 a 1 wreg ]
+[v OLED_ShowNum@y y `uc  1 p 1 13 ]
+[v OLED_ShowNum@num num `l  1 p 4 14 ]
+[v OLED_ShowNum@Char_Size Char_Size `uc  1 p 1 18 ]
+[v OLED_ShowNum@x x `uc  1 a 1 22 ]
+"138
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 9 ]
+"5
+[v ___llmod@divisor divisor `ul  1 p 4 0 ]
+[v ___llmod@dividend dividend `ul  1 p 4 4 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"77 C:\Users\kai\MPLABXProjects\v-meter.X\oled.c
+[v _OLED_ShowChar OLED_ShowChar `(v  1 e 1 0 ]
+{
+[v OLED_ShowChar@x x `uc  1 a 1 wreg ]
+"78
+[v OLED_ShowChar@i i `uc  1 a 1 12 ]
+[v OLED_ShowChar@c c `uc  1 a 1 10 ]
+"77
+[v OLED_ShowChar@x x `uc  1 a 1 wreg ]
+[v OLED_ShowChar@y y `uc  1 p 1 1 ]
+[v OLED_ShowChar@chr chr `uc  1 p 1 2 ]
+[v OLED_ShowChar@Char_Size Char_Size `uc  1 p 1 3 ]
+[v OLED_ShowChar@x x `uc  1 a 1 11 ]
+"97
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"54 C:\Users\kai\MPLABXProjects\v-meter.X\oled.c
+[v _OLED_Set_Pos OLED_Set_Pos `(v  1 e 1 0 ]
+{
+[v OLED_Set_Pos@x x `uc  1 a 1 wreg ]
+[v OLED_Set_Pos@x x `uc  1 a 1 wreg ]
+[v OLED_Set_Pos@y y `uc  1 p 1 12 ]
+[v OLED_Set_Pos@x x `uc  1 a 1 0 ]
+"58
+} 0
+"24
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+{
+"25
+[v OLED_Init@i i `uc  1 a 1 11 ]
+"29
+} 0
+"31
+[v _OLED_Clear OLED_Clear `(v  1 e 1 0 ]
+{
+"32
+[v OLED_Clear@i i `uc  1 a 1 1 ]
+[v OLED_Clear@n n `uc  1 a 1 0 ]
+"40
+} 0
+"20
+[v _OLED_WR_DATA OLED_WR_DATA `(v  1 e 1 0 ]
+{
+[v OLED_WR_DATA@data data `uc  1 a 1 wreg ]
+[v OLED_WR_DATA@data data `uc  1 a 1 wreg ]
+[v OLED_WR_DATA@data data `uc  1 a 1 11 ]
+"22
+} 0
+"16
+[v _OLED_WR_CMD OLED_WR_CMD `(v  1 e 1 0 ]
+{
+[v OLED_WR_CMD@cmd cmd `uc  1 a 1 wreg ]
+[v OLED_WR_CMD@cmd cmd `uc  1 a 1 wreg ]
+[v OLED_WR_CMD@cmd cmd `uc  1 a 1 11 ]
+"18
+} 0
+"6
+[v _oled_send oled_send `(v  1 e 1 0 ]
+{
+[v oled_send@dc dc `uc  1 a 1 wreg ]
+[v oled_send@dc dc `uc  1 a 1 wreg ]
+[v oled_send@data data `uc  1 p 1 6 ]
+[v oled_send@dc dc `uc  1 a 1 9 ]
+"8
+} 0
+"96 C:\Users\kai\MPLABXProjects\v-meter.X\soft_i2c.c
+[v _Soft_I2c_Send Soft_I2c_Send `(v  1 e 1 0 ]
+{
+[v Soft_I2c_Send@DevAddr DevAddr `uc  1 a 1 wreg ]
+[v Soft_I2c_Send@DevAddr DevAddr `uc  1 a 1 wreg ]
+[v Soft_I2c_Send@cmd cmd `uc  1 p 1 3 ]
+[v Soft_I2c_Send@dat dat `uc  1 p 1 4 ]
+[v Soft_I2c_Send@DevAddr DevAddr `uc  1 a 1 5 ]
+"108
+} 0
+"80
+[v _Soft_I2c_WaitAck Soft_I2c_WaitAck `(a  1 e 1 0 ]
+{
+"81
+[v Soft_I2c_WaitAck@re re `uc  1 a 1 0 ]
+"94
+} 0
+"40
+[v _ReadSDAState ReadSDAState `(a  1 e 1 0 ]
+{
+"42
+} 0
+"53
+[v _Soft_I2c_Stop Soft_I2c_Stop `(v  1 e 1 0 ]
+{
+"61
+} 0
+"44
+[v _Soft_I2c_Start Soft_I2c_Start `(v  1 e 1 0 ]
+{
+"51
+} 0
+"63
+[v _Soft_I2c_SendByte Soft_I2c_SendByte `(v  1 e 1 0 ]
+{
+[v Soft_I2c_SendByte@dat dat `uc  1 a 1 wreg ]
+"64
+[v Soft_I2c_SendByte@i i `uc  1 a 1 2 ]
+"63
+[v Soft_I2c_SendByte@dat dat `uc  1 a 1 wreg ]
+"65
+[v Soft_I2c_SendByte@dat dat `uc  1 a 1 1 ]
+"78
+} 0
+"12
+[v _SDA_Set SDA_Set `(v  1 e 1 0 ]
+{
+"14
+} 0
+"20
+[v _SDA_Reset SDA_Reset `(v  1 e 1 0 ]
+{
+"22
+} 0
+"28
+[v _SCL_Set SCL_Set `(v  1 e 1 0 ]
+{
+"30
+} 0
+"36
+[v _SCL_Reset SCL_Reset `(v  1 e 1 0 ]
+{
+"38
+} 0
+"138 C:\Users\kai\MPLABXProjects\v-meter.X\mcc_generated_files/adcc.c
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E10898  1 a 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E10898  1 a 1 wreg ]
+"141
+[v ADCC_GetSingleConversion@channel channel `E10898  1 a 1 2 ]
+"161
+} 0
